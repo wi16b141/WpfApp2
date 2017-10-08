@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="960" Width="1280">
+        Title="MainWindow" Height="900" Width="1280">
+        
+    <!-- Test: Local Master abändern -->
     
     <!-- Overall/Main Grid -->
     <Grid Background="Black">
@@ -27,7 +29,7 @@
         </Border>
 
         <!-- Main/Centre C0R1 -->
-        <Label Grid.Row="1" Content="...tbd..." Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
+        <Label Grid.Row="1" Content=". . . tbd . . ." Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
 
         <!-- Menu/Information C1R0+1 -->
         <Grid Grid.Column="1" Grid.RowSpan="2">
