@@ -6,6 +6,8 @@
         xmlns:local="clr-namespace:WpfApp2"
         mc:Ignorable="d"
         Title="MainWindow" Height="960" Width="1280">
+    
+    <!-- Overall/Main Grid -->
     <Grid Background="Black">
         <Grid.RowDefinitions>
             <RowDefinition Height="70"/>
@@ -16,6 +18,7 @@
             <ColumnDefinition Width="200" />
         </Grid.ColumnDefinitions>
 
+        <!-- Title C0R0 -->
         <Border BorderThickness="1,1,1,1" BorderBrush="Red" Margin="10">
             <StackPanel Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
                 <Image Source="Images/Warning-WF.png" Width="48" />
@@ -23,8 +26,10 @@
             </StackPanel>
         </Border>
 
+        <!-- Main/Centre C0R1 -->
         <Label Grid.Row="1" Content="...tbd..." Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center" />
 
+        <!-- Menu/Information C1R0+1 -->
         <Grid Grid.Column="1" Grid.RowSpan="2">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>
